@@ -77,11 +77,11 @@ export const LEVELS = [
     borderColor: "border-blue-500/30",
     textColor: "text-blue-400",
     bgBadge: "bg-blue-500/15 text-blue-400",
-    description: "La personne sait qu'il y a un problème et cherche des solutions.",
-    internalState: "Ouverture mêlée de confusion. La personne explore mais peut être vulnérable aux fausses réponses.",
+    description: "La personne est consciente du problème ET des solutions possibles. Elle explore, compare, cherche ce qui fonctionne vraiment.",
+    internalState: "Ouverture mêlée de confusion. La personne explore mais peut être vulnérable aux fausses réponses. Trop de solutions s'offrent à elle.",
     behaviors: [
       "Pose des questions sincères",
-      "Explore différentes options",
+      "Explore différentes options (yoga, développement perso, autres religions...)",
       "Lit, écoute, regarde des contenus",
       "Compare les approches"
     ],
@@ -91,11 +91,17 @@ export const LEVELS = [
       "Il doit y avoir quelque chose de plus",
       "Comment tu fais, toi ?"
     ],
-    hiddenNeed: "Une direction claire et sincère, pas une formule religieuse.",
-    strategy: "Proposer Dieu comme réponse vivante. Partager avec authenticité. Structurer la réponse.",
+    hiddenNeed: "Une direction claire et sincère, la preuve que cette solution fonctionne vraiment.",
+    strategy: "C'est le moment de prouver que Dieu résout le problème. Utiliser : 1) Les témoignages de transformation (storytelling), 2) Ta propre expérience vécue, 3) Des preuves concrètes de changement. Répondre au facteur 'pourquoi cette voie plutôt qu'une autre'.",
     whatToSay: "Ce que tu cherches, je l'ai trouvé. Pas dans une religion, mais dans une relation vivante. Tu veux que je te raconte ?",
     whatNotToSay: "Viens à l'église dimanche, tu verras.",
-    mistakes: ["Répondre de façon superficielle", "Donner une solution sans explication", "Être trop pressé"],
+    mistakes: ["Répondre de façon superficielle", "Donner une solution sans preuve", "Être trop pressé", "Ignorer les alternatives qu'elle explore"],
+    keyPoints: [
+      "Elle cherche une solution qui fonctionne — prouve-le par le storytelling",
+      "Partage des témoignages de transformation réels",
+      "Réponds au 'pourquoi Jésus plutôt qu'autre chose ?' avec clarté",
+      "Montre ta propre vie comme preuve vivante"
+    ],
     signsOfProgress: "La personne demande des détails, veut en savoir plus, revient vers toi."
   },
   {
