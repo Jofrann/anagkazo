@@ -7,7 +7,7 @@ export const LEVELS = [
     borderColor: "border-red-500/30",
     textColor: "text-red-400",
     bgBadge: "bg-red-500/15 text-red-400",
-    description: "La personne ne sait pas qu'elle a un problème ou un manque.",
+    description: "La personne ne sait pas qu'elle a un problème ou un manque. C'est le segment le plus important — la majorité des gens s'y trouvent.",
     internalState: "Sentiment de contrôle, fausse paix, déni fonctionnel. La personne construit sa vie sur des bases fragiles sans le savoir.",
     behaviors: [
       "Évite les sujets profonds",
@@ -22,10 +22,16 @@ export const LEVELS = [
       "Je ne suis pas intéressé"
     ],
     hiddenNeed: "Être éveillé doucement à un besoin qu'il ne perçoit pas encore.",
-    strategy: "Ne pas apporter de solution. Poser des questions qui créent un micro-décalage dans la certitude.",
+    strategy: "Ne pas apporter de solution. Parler des symptômes, du problème existentiel, des points douloureux universels (solitude, mort, sens) — de manière éduquée et éclairée. Se limiter à cela : l'objectif est de créer une prise de conscience, pas de convertir.",
     whatToSay: "Tu as déjà eu un moment où tu t'es demandé s'il n'y avait pas plus que ce que tu vis ?",
     whatNotToSay: "Tu as besoin de Dieu, tu vis dans le péché.",
-    mistakes: ["Prêcher trop tôt", "Citer la Bible directement", "Condamner le style de vie"],
+    mistakes: ["Prêcher trop tôt", "Citer la Bible directement", "Condamner le style de vie", "Proposer une solution avant d'avoir révélé le problème"],
+    keyPoints: [
+      "Aborder les symptômes (vide, manque de sens, peur de la mort)",
+      "Nommer le problème sans l'imposer",
+      "Identifier les points douloureux cachés",
+      "Révéler les causes sans accuser"
+    ],
     signsOfProgress: "La personne pose une question, même ironique. Elle reste dans la conversation plus longtemps."
   },
   {
