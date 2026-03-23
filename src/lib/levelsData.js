@@ -42,7 +42,7 @@ export const LEVELS = [
     borderColor: "border-orange-500/30",
     textColor: "text-orange-400",
     bgBadge: "bg-orange-500/15 text-orange-400",
-    description: "La personne sait qu'il y a un problème, mais le réduit.",
+    description: "La personne a conscience qu'il y a un problème, mais le minimise. Elle pose des questions mais n'est pas encore prête à agir.",
     internalState: "Anxiété sous-jacente, tentative de maintenir une façade. La personne sent le besoin mais refuse de lui donner du poids.",
     behaviors: [
       "Admet un problème puis le minimise",
@@ -57,10 +57,16 @@ export const LEVELS = [
       "Un jour peut-être"
     ],
     hiddenNeed: "Que quelqu'un valide la gravité réelle sans le juger.",
-    strategy: "Amplifier la conscience sans condamner. Utiliser des questions qui révèlent l'écart entre la réalité et le discours.",
+    strategy: "Répondre aux questions de la personne en la faisant se sentir comprise. Explorer avec elle : C'est quoi exactement son vide ? D'où vient-il ? Y a-t-il des effets dont elle n'est pas consciente ? D'autres vivent-ils la même chose ? Que peut-elle faire ?",
     whatToSay: "Si c'est vraiment pas grave, pourquoi ça revient toujours dans tes pensées ?",
     whatNotToSay: "Tu minimises, c'est plus grave que tu crois.",
     mistakes: ["Être accusateur", "Insister lourdement", "Donner des ultimatums"],
+    keyPoints: [
+      "Ils veulent en savoir plus ET se sentir compris — priorise l'écoute",
+      "Poser les questions qu'ils posent intérieurement (origine du vide, solutions possibles)",
+      "Valider leur expérience avant d'avancer",
+      "Parler des symptômes, du problème, des causes sans condamner"
+    ],
     signsOfProgress: "La personne arrête de comparer, commence à parler de SA situation spécifiquement."
   },
   {
