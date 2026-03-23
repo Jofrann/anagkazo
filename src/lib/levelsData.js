@@ -147,8 +147,8 @@ export const LEVELS = [
     borderColor: "border-emerald-500/30",
     textColor: "text-emerald-400",
     bgBadge: "bg-emerald-500/15 text-emerald-400",
-    description: "La personne est prête à te suivre et être guidée.",
-    internalState: "Confiance établie, prête à s'engager. La personne a besoin d'être accueillie et intégrée.",
+    description: "La personne est pleinement consciente, convaincue, et prête à s'engager. C'est le V.I.P — elle fait confiance et veut aller plus loin.",
+    internalState: "Confiance établie, prête à s'engager pleinement. La personne a besoin d'être accueillie, intégrée et poussée vers la croissance.",
     behaviors: [
       "Accepte les invitations",
       "Demande comment commencer",
@@ -161,11 +161,17 @@ export const LEVELS = [
       "Je suis prêt(e)",
       "Qu'est-ce que je dois faire ?"
     ],
-    hiddenNeed: "Être accompagné(e) concrètement dans les premiers pas.",
-    strategy: "Structurer le suivi. Inviter dans un cadre. Ne pas abandonner après la première rencontre.",
+    hiddenNeed: "Être accompagné(e) concrètement dans les premiers pas, et ne pas être abandonné(e) après la décision.",
+    strategy: "Encourager l'engagement concret et la croissance continue. Proposer des étapes claires : baptême, intégration, disciples hip. Valoriser la relation et offrir des 'cadeaux' d'accueil (communauté, mentorat, ressources). Parler aussi de la suite — la croissance spirituelle.",
     whatToSay: "C'est magnifique. On va avancer ensemble, pas à pas. Je serai là.",
     whatNotToSay: "Super, à bientôt alors.",
-    mistakes: ["Abandonner après la conversion", "Laisser la personne seule", "Ne pas structurer le suivi"],
+    mistakes: ["Abandonner après la conversion", "Laisser la personne seule", "Ne pas structurer le suivi", "Négliger le discipulat"],
+    keyPoints: [
+      "Proposer une prochaine étape concrète et immédiate",
+      "Offrir un accueil chaleureux dans la communauté (le 'cadeau' d'appartenance)",
+      "Présenter des nouveaux défis de croissance pour maintenir l'élan",
+      "Transformer progressivement le converti en disciple qui fait des disciples"
+    ],
     signsOfProgress: "La personne vient régulièrement, pose des questions de croissance, commence à partager avec d'autres."
   }
 ];
