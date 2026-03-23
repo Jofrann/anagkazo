@@ -112,12 +112,12 @@ export const LEVELS = [
     borderColor: "border-purple-500/30",
     textColor: "text-purple-400",
     bgBadge: "bg-purple-500/15 text-purple-400",
-    description: "La personne te voit comme une solution possible, mais n'est pas certaine.",
-    internalState: "Intérêt réel mais peur de l'engagement. La personne pèse le pour et le contre, observe ta cohérence.",
+    description: "La personne connaît la solution (Dieu, l'Évangile), elle est consciente de ton témoignage — mais hésite encore à s'engager.",
+    internalState: "Intérêt réel mais peur de l'engagement. La personne pèse le pour et le contre, observe ta cohérence de près.",
     behaviors: [
       "Pose des questions de vérification",
-      "Teste ta sincérité",
-      "Observe ton comportement",
+      "Teste ta sincérité et ta cohérence de vie",
+      "Observe ton comportement dans le temps",
       "Exprime des objections mesurées"
     ],
     commonPhrases: [
@@ -126,11 +126,17 @@ export const LEVELS = [
       "Je ne suis pas sûr que ce soit pour moi",
       "J'ai besoin de temps"
     ],
-    hiddenNeed: "De la confiance, de la cohérence, et la preuve que c'est réel.",
-    strategy: "Bâtir la confiance par la transparence. Répondre aux objections avec patience. Montrer par ta vie.",
+    hiddenNeed: "De la confiance, de la cohérence incarnée, et la certitude que ce n'est pas une autre déception.",
+    strategy: "Se concentrer sur 2 points : 1) Le facteur 'pourquoi' — pourquoi elle a besoin de cette relation maintenant. 2) Répondre aux objections spécifiques avec patience et transparence. Ta vie est l'argument principal à ce stade.",
     whatToSay: "Je comprends tes doutes. Moi aussi j'en avais. Ce qui m'a convaincu, c'est pas un argument, c'est une expérience.",
     whatNotToSay: "Arrête de douter et crois tout simplement.",
-    mistakes: ["Forcer la décision", "Ignorer les objections", "Paraître impatient"],
+    mistakes: ["Forcer la décision", "Ignorer les objections", "Paraître impatient", "Ne pas incarner ce qu'on prêche"],
+    keyPoints: [
+      "Répondre au 'pourquoi j'en aurais besoin maintenant ?' de façon personnalisée",
+      "La cohérence de ta vie compte plus que tes arguments",
+      "Traiter les objections une par une, avec empathie",
+      "Proposer des expériences concrètes (prier ensemble, inviter à un événement)"
+    ],
     signsOfProgress: "La personne accepte un rendez-vous, demande à en reparler, baisse ses défenses."
   },
   {
