@@ -1,0 +1,47 @@
+{
+  "name": "PersonInteraction",
+  "type": "object",
+  "properties": {
+    "person_id": {
+      "type": "string",
+      "description": "Reference to person"
+    },
+    "person_name": {
+      "type": "string",
+      "description": "Person name for display"
+    },
+    "interaction_date": {
+      "type": "string",
+      "format": "date",
+      "description": "Date of interaction"
+    },
+    "summary": {
+      "type": "string",
+      "description": "Summary of interaction"
+    },
+    "phrases_heard": {
+      "type": "string",
+      "description": "Key phrases heard"
+    },
+    "user_approach": {
+      "type": "string",
+      "description": "How user approached"
+    },
+    "reaction_observed": {
+      "type": "string",
+      "description": "Person's reaction"
+    },
+    "ai_analysis": {
+      "type": "string",
+      "description": "AI analysis of the interaction"
+    },
+    "recommended_next_step": {
+      "type": "string",
+      "description": "AI recommended next step"
+    }
+  },
+  "required": [
+    "person_id",
+    "summary"
+  ]
+}

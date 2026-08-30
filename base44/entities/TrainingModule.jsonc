@@ -1,0 +1,47 @@
+{
+  "name": "TrainingModule",
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": "string",
+      "description": "Module title"
+    },
+    "description": {
+      "type": "string",
+      "description": "Module description"
+    },
+    "category": {
+      "type": "string",
+      "enum": [
+        "fundamentals",
+        "levels",
+        "skills",
+        "advanced"
+      ],
+      "description": "Module category"
+    },
+    "level_target": {
+      "type": "number",
+      "description": "Target consciousness level (1-5), 0 for general"
+    },
+    "order_index": {
+      "type": "number",
+      "description": "Display order"
+    },
+    "content": {
+      "type": "string",
+      "description": "Rich text content"
+    },
+    "lessons_count": {
+      "type": "number",
+      "description": "Number of lessons"
+    },
+    "icon": {
+      "type": "string",
+      "description": "Icon name"
+    }
+  },
+  "required": [
+    "title"
+  ]
+}

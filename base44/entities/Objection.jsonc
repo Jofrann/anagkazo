@@ -1,0 +1,48 @@
+{
+  "name": "Objection",
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": "string",
+      "description": "Objection title"
+    },
+    "category": {
+      "type": "string",
+      "enum": [
+        "existence",
+        "suffering",
+        "church",
+        "hypocrisy",
+        "freedom",
+        "science",
+        "other_religions",
+        "personal"
+      ],
+      "description": "Category"
+    },
+    "level_target": {
+      "type": "number",
+      "description": "Typical consciousness level"
+    },
+    "objection_text": {
+      "type": "string",
+      "description": "Full objection text"
+    },
+    "hidden_meaning": {
+      "type": "string",
+      "description": "What it really means"
+    },
+    "recommended_strategy": {
+      "type": "string",
+      "description": "Recommended strategy"
+    },
+    "mistakes_to_avoid": {
+      "type": "string",
+      "description": "Common mistakes"
+    }
+  },
+  "required": [
+    "title",
+    "objection_text"
+  ]
+}

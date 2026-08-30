@@ -1,0 +1,62 @@
+{
+  "name": "Simulation",
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": "string",
+      "description": "Simulation title"
+    },
+    "profile_type": {
+      "type": "string",
+      "enum": [
+        "atheist",
+        "skeptic",
+        "church_hurt",
+        "proud",
+        "curious",
+        "broken",
+        "religious_closed",
+        "distracted",
+        "morally_resistant"
+      ],
+      "description": "Profile type"
+    },
+    "level_target": {
+      "type": "number",
+      "description": "Target consciousness level (1-5)"
+    },
+    "context_type": {
+      "type": "string",
+      "enum": [
+        "street",
+        "campus",
+        "social_media",
+        "family",
+        "work",
+        "friend"
+      ],
+      "description": "Context"
+    },
+    "difficulty": {
+      "type": "string",
+      "enum": [
+        "beginner",
+        "intermediate",
+        "advanced"
+      ],
+      "description": "Difficulty level"
+    },
+    "scenario_description": {
+      "type": "string",
+      "description": "Scenario description"
+    },
+    "ai_persona_prompt": {
+      "type": "string",
+      "description": "AI persona instructions"
+    }
+  },
+  "required": [
+    "title",
+    "profile_type"
+  ]
+}

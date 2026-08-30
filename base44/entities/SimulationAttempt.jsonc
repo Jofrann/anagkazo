@@ -1,0 +1,68 @@
+{
+  "name": "SimulationAttempt",
+  "type": "object",
+  "properties": {
+    "simulation_id": {
+      "type": "string",
+      "description": "Reference to simulation"
+    },
+    "simulation_title": {
+      "type": "string",
+      "description": "Simulation title for display"
+    },
+    "conversation_history": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "role": {
+            "type": "string"
+          },
+          "content": {
+            "type": "string"
+          }
+        }
+      },
+      "description": "Conversation messages"
+    },
+    "ai_feedback": {
+      "type": "string",
+      "description": "AI evaluation feedback"
+    },
+    "detected_level": {
+      "type": "number",
+      "description": "Level detected by user"
+    },
+    "score_discernment": {
+      "type": "number",
+      "description": "Score 0-100"
+    },
+    "score_empathy": {
+      "type": "number",
+      "description": "Score 0-100"
+    },
+    "score_strategy": {
+      "type": "number",
+      "description": "Score 0-100"
+    },
+    "score_clarity": {
+      "type": "number",
+      "description": "Score 0-100"
+    },
+    "overall_score": {
+      "type": "number",
+      "description": "Overall score 0-100"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "in_progress",
+        "completed"
+      ],
+      "default": "in_progress"
+    }
+  },
+  "required": [
+    "simulation_id"
+  ]
+}

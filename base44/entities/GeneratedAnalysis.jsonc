@@ -1,0 +1,35 @@
+{
+  "name": "GeneratedAnalysis",
+  "type": "object",
+  "properties": {
+    "context_type": {
+      "type": "string",
+      "enum": [
+        "field_assistant",
+        "response_generator",
+        "simulation_feedback"
+      ],
+      "description": "Type of analysis"
+    },
+    "input_text": {
+      "type": "string",
+      "description": "User input"
+    },
+    "probable_level": {
+      "type": "number",
+      "description": "Detected level"
+    },
+    "response_type": {
+      "type": "string",
+      "description": "Type of response generated"
+    },
+    "ai_output": {
+      "type": "string",
+      "description": "AI generated output"
+    }
+  },
+  "required": [
+    "context_type",
+    "input_text"
+  ]
+}

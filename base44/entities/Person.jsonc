@@ -1,0 +1,94 @@
+{
+  "name": "Person",
+  "type": "object",
+  "properties": {
+    "nickname": {
+      "type": "string",
+      "description": "Name or nickname"
+    },
+    "approximate_age": {
+      "type": "number",
+      "description": "Approximate age"
+    },
+    "gender": {
+      "type": "string",
+      "enum": [
+        "male",
+        "female",
+        "unknown"
+      ],
+      "description": "Gender"
+    },
+    "meeting_context": {
+      "type": "string",
+      "description": "Where/how you met"
+    },
+    "estimated_level": {
+      "type": "number",
+      "description": "Current consciousness level (1-5)"
+    },
+    "trust_status": {
+      "type": "string",
+      "enum": [
+        "cold",
+        "warming",
+        "open",
+        "trusting",
+        "committed"
+      ],
+      "default": "cold",
+      "description": "Trust level"
+    },
+    "emotional_state": {
+      "type": "string",
+      "description": "Current emotional state"
+    },
+    "description": {
+      "type": "string",
+      "description": "Description of the person"
+    },
+    "key_phrases": {
+      "type": "string",
+      "description": "Key phrases they said"
+    },
+    "last_contact_date": {
+      "type": "string",
+      "format": "date",
+      "description": "Last contact date"
+    },
+    "next_action": {
+      "type": "string",
+      "description": "Next follow-up action"
+    },
+    "invitation_status": {
+      "type": "string",
+      "enum": [
+        "not_invited",
+        "invited",
+        "accepted",
+        "declined"
+      ],
+      "default": "not_invited",
+      "description": "Invitation status"
+    },
+    "integration_status": {
+      "type": "string",
+      "enum": [
+        "not_started",
+        "visiting",
+        "regular",
+        "integrated",
+        "discipling"
+      ],
+      "default": "not_started",
+      "description": "Church integration"
+    },
+    "notes": {
+      "type": "string",
+      "description": "Additional notes"
+    }
+  },
+  "required": [
+    "nickname"
+  ]
+}
